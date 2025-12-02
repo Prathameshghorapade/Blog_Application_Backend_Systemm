@@ -14,6 +14,7 @@ Role-based Access Control
 
 Security Filters & Token Validation
 
+
 📝 2. Full Blog CRUD System
 
 Create / Update / Delete Posts
@@ -21,6 +22,7 @@ Create / Update / Delete Posts
 Manage Users & Categories
 
 DTO responses for clean API output
+
 
 ⚡ 3. Redis Caching Integration
 
@@ -32,17 +34,20 @@ Reduces MySQL server load
 
 Faster API responses
 
+
 📊 4. Pagination & Sorting
 
 Optimized API listing
 
 Faster large dataset handling
 
+
 🛡 5. Exception Handling
 
 Global exception handler using @RestControllerAdvice
 
 Elegant & consistent error messages
+
 
 🧼 6. Validation Layer
 
@@ -66,6 +71,7 @@ ORM	Hibernate / JPA
 Mapping	ModelMapper
 Build Tool	Maven
 Tools	Postman, Git, GitHub
+
 📁 Project Structure
 src/
  ├── controller        # REST Controllers
@@ -81,6 +87,7 @@ src/
 🔹 Request → Controller → Service → Repository → DB → Response
 🔹 Request → Secured Route → JWT Filter → Token Validation → Continue
 🔹 Request to Cached API → Redis Cache → Return Faster Response
+
 🧠 API Workflow Diagram
                ┌──────────────┐
                │   Client      │
