@@ -13,13 +13,7 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 @Configuration
 public class RedisConfig {
 	
-	//@Bean
-//	public RedisCacheConfiguration redisCacheConfiguration() {
-//		
-//		return RedisCacheConfiguration.defaultCacheConfig()
-//		.entryTtl(Duration.ofMinutes(10)).
-//		 disableCachingNullValues();
-//	}
+
 	
 	public RedisTemplate redisTemplate(RedisConnectionFactory factory) {
 		
