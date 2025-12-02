@@ -1,2 +1,11 @@
 /mvnw text eol=lf
 *.cmd text eol=crlf
+
+# Ignore common frontend / static files
+node_modules/ linguist-vendored
+static/      linguist-vendored
+public/      linguist-vendored
+*.js         linguist-vendored
+*.json       linguist-vendored
+*.css        linguist-vendored
+*.html       linguist-vendored
